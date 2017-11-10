@@ -1,0 +1,27 @@
+.informationItem {
+    width: 460px;
+    padding: 9px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    .informationItem-content {
+        cursor: pointer;
+        width: 450px;
+        font-size: 14px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;    
+        padding: 0 15px;
+        display: inline-block;
+        &:hover {
+            color: blue;
+        }
+    }
+    .informationItem-rect {
+        margin-bottom: 5px;
+        display: inline-block;
+        width: 5px;
+        height: 5px;
+        background-color: #999;
+    }
+}

@@ -1,0 +1,37 @@
+.topImg {
+    width: 100%;    
+    height: 150px;;
+    background-image: url(../img/top.jpg);
+    background-position: 50%;
+    background-size:  cover;
+    border-radius: 5px;
+    overflow: hidden;
+    .cover {
+        width: 100%;
+        height: 150px;
+        position: relative;
+        background:linear-gradient(to right, rgba(0, 0, 0, .5), rgba(8, 8, 8, .1));
+        .logo {
+            width: 679px;
+            height: 90px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 30px;
+            margin: auto;
+            background-image: url(../img/logo.png);
+            background-size: 679px 90px;
+        }
+        .count {
+            bottom: 12px;
+            color: white;
+            font-size: 15px;
+            position: absolute;
+            font-weight: bold;
+            text-align: center;
+            right: 30px;
+        }
+        
+        
+    }
+}

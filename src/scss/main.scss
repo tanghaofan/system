@@ -1,0 +1,15 @@
+.bodyer {
+    width: 980px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: white;
+    margin: auto;
+    border-radius: 5px;
+    .content {
+        margin-top: 30px;
+    }
+}
+body {
+    background: #E7E7E7;
+}
